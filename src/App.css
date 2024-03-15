@@ -1,38 +1,76 @@
+body {
+  overflow-x: hidden;
+}
+
 .App {
-  text-align: center;
+  background-color: #FFFFFF;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  height: 7.5rem;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color:#D5CFE6;
+  height:auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar-collapse {
+  font-size: 1.375rem;
+  margin-left: 4rem;
+  z-index: 4rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.logo {
+  height: auto;
+  margin-left: 4rem;
+  max-width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.connect {
+  width: 25rem;
+  height: auto;
+  padding: 20px;
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button {
+  border-color: #6779FF;
+  color:#6779FF;
+  border-radius: 6.25rem;
+  font-size: 22px;
+}
+
+.button:hover {
+  background-color: #6779FF;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.hover:hover {
+    border-bottom: 1px solid #6779FF;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icon {
+  color: #6779FF;
+}
+
+@media screen and (max-width:1600px) {
+  .hover {font-size: 16px;}
+}
+
+@media screen and (max-width:900px) {
+  .connect {width: 16rem;}
+}
+
+.explain {
+  margin-top: 45rem;
+  color:rgb(255, 255, 255);
+  background-color:black;
+  opacity: 0.6;
+  padding: 1rem;
 }
