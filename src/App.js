@@ -7,12 +7,21 @@ const App = () => (
   <>
     <Header />
     <Home />
-    <div className="row">
-      <div className="col">
-        <h1>
+    <div className="container-fluid">
+      <div className="row">
+        <h1 className="mt-5">
           НАШИ ПРОЕКТЫ
         </h1>
-        <img className="img" src={photo} alt="group" />
+        <div className="col-lg-7">
+          <img className="img" src={photo} alt="group" style={{ maxWidth: '100%', height: 'auto' }} />
+        </div>
+        <div className="col-lg-5">
+          <div>
+            <h1>
+              haha
+            </h1>
+          </div>
+        </div>
       </div>
     </div>
   </>

@@ -10,9 +10,7 @@ const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg header app">
       <div className="container-fluid">
-        <a className="navbar-brand logo" href="localhost:3000">
-          <img src={logo} alt="logo" />
-        </a>
+        <img className="logo d-flex" src={logo} alt="logo" />
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
           <span className="navbar-toggler-icon" />
         </button>
