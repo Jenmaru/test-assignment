@@ -10,19 +10,21 @@ const Home = () => (
         backgroundImage: `url(${vector})`, maxWidth: '100%', backgroundSize: 'contain', height: 'auto', backgroundPosition: 'right bottom', backgroundRepeat: 'no-repeat',
       }}
     >
-      <h1>
-        ЛЕНДИНГ ДЛЯ
-      </h1>
-      <h1>
-        ВАШЕГО БИЗНЕСА
-      </h1>
-      <h1>
-        ЗА 10 ДНЕЙ
-      </h1>
-      <h3>
-        Гарантируем увеличение выручки!
-      </h3>
-      <button className="connect button" type="button">Связаться с нами</button>
+      <div className="container-fluid mb-5 p-5">
+        <h1>
+          ЛЕНДИНГ ДЛЯ
+        </h1>
+        <h1>
+          ВАШЕГО БИЗНЕСА
+        </h1>
+        <h1 style={{ color: '#6779FF' }}>
+          ЗА 10 ДНЕЙ
+        </h1>
+        <h3>
+          Гарантируем увеличение выручки!
+        </h3>
+        <button className="connect2 button" type="button">ОСТАВИТЬ ЗАЯВКУ</button>
+      </div>
       <div className="row">
         <img src={group} alt="group" />
       </div>

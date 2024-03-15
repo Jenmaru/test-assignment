@@ -8,7 +8,7 @@ const Header = () => {
   const getIcon = () => (icons[0] === currentIcon ? setIcon(icons[1]) : setIcon(icons[0]));
 
   return (
-    <nav className="navbar navbar-expand-lg header app">
+    <nav className="navbar navbar-expand-lg header" role="navigation">
       <div className="container-fluid">
         <img className="logo d-flex" src={logo} alt="logo" />
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
