@@ -10,7 +10,7 @@ const Home = () => (
         backgroundImage: `url(${vector})`, maxWidth: '100%', backgroundSize: 'contain', height: 'auto', backgroundPosition: 'right bottom', backgroundRepeat: 'no-repeat',
       }}
     >
-      <div className="container-fluid mb-5 p-5">
+      <div className="container-fluid mb-5 p-lg-5 p-sm-5">
         <h1>
           ЛЕНДИНГ ДЛЯ
         </h1>

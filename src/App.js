@@ -16,7 +16,7 @@ const App = () => (
         <div className="col-lg-7 col-md-12">
           <img className="img p-5" src={photo} alt="group" style={{ maxWidth: '100%', height: 'auto' }} />
         </div>
-        <div className="col-lg-4 col-md-12 justify-content-center align-items-center d-flex">
+        <div className="col-lg-4 col-md-12 justify-content-center align-items-center d-flex portfolio">
           <div className="mt-3">
             <h1 style={{ color: '#6779FF' }}>
               ЛЕНДИНГ ДЛЯ SKINCLUB
