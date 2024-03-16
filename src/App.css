@@ -19,9 +19,9 @@ html, body {
   margin-left: 4rem;
 }
 
-.col1 {
+.col2 {
   max-width: 100vw;
-  height: auto;
+  height: 56rem;
 }
 
 .connect {
@@ -71,26 +71,32 @@ html, body {
 }
 
 .explain {
-  margin-top: 45rem;
   color:rgb(255, 255, 255);
   background-color:black;
   opacity: 0.6;
   padding: 1rem;
+  margin-top: 45rem;
 }
 
 @media screen and (max-width:1600px) {
   .hover {font-size: 16px;}
+  .text-skin3 {font-size: 0.8vw;}
+  .text-skin2 {font-size: 1.1vw;}
+  .text-skin1 {font-size: 1.5vw;}
 }
 
 @media screen and (max-width:900px) {
-  .connect {width: 22rem; margin-right: 2rem;}
+  .connect {width: 19rem; margin-right: 2rem;}
   .logo {width: 40vw; margin-left: 2rem;}
   .navbar-toggler {margin-right: 2rem;}
 }
 
 @media screen and (max-width:500px) {
   .connect1 {width: 20rem;}
-  .col1 {height: 35rem;}
+  .col2 {height: 36rem;}
+  .explain {margin-top: 30rem; height: 5rem; padding: 0.5rem;}
+  .text {font-size: 3vw;}
+  .portfolio {padding-left: 10rem;}
 }
 
 

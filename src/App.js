@@ -13,15 +13,15 @@ const App = () => (
         <h1 className="mt-5 ms-5">
           НАШИ ПРОЕКТЫ
         </h1>
-        <div className="col-lg-7 col-md-12 justify-content-center d-flex">
+        <div className="col-lg-7 col-md-12">
           <img className="img p-5" src={photo} alt="group" style={{ maxWidth: '100%', height: 'auto' }} />
         </div>
-        <div className="col-lg-4 col-md-12 justify-content-center d-flex">
-          <div className="mt-5">
-            <h1 className="pt-4" style={{ color: '#6779FF' }}>
+        <div className="col-lg-4 col-md-12 justify-content-center align-items-center d-flex">
+          <div className="mt-3">
+            <h1 style={{ color: '#6779FF' }}>
               ЛЕНДИНГ ДЛЯ SKINCLUB
             </h1>
-            <h3 className="pt-5">
+            <h3 className="pt-md-5 text-skin">
               Поставленные задачи:
             </h3>
             <ul>
