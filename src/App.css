@@ -92,11 +92,11 @@ html, body {
 }
 
 @media screen and (max-width:500px) {
-  .connect1 {width: 20rem;}
+  .connect2 {width: 19rem;}
   .col2 {height: 36rem;}
   .explain {margin-top: 30rem; height: 5rem; padding: 0.5rem;}
   .text {font-size: 3vw;}
-  .portfolio {margin-left: 2rem;}
+  .text-skin {display: flex; justify-content: center;}
 }
 
 

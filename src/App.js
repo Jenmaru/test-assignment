@@ -18,7 +18,7 @@ const App = () => (
         </div>
         <div className="col-lg-4 col-md-12 justify-content-center align-items-center d-flex portfolio">
           <div className="mt-3">
-            <h1 style={{ color: '#6779FF' }}>
+            <h1 className="text-skin" style={{ color: '#6779FF' }}>
               ЛЕНДИНГ ДЛЯ SKINCLUB
             </h1>
             <h3 className="pt-md-5 text-skin">
