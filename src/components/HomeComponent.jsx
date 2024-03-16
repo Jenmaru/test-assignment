@@ -5,9 +5,9 @@ import vector from './picture/Vector.png';
 const Home = () => (
   <div className="row m-0 align-items-end justify-content-end">
     <div
-      className="col-lg-6 col-sm-12 p-0"
+      className="col-lg-6 col-sm-12 p-0 col1"
       style={{
-        backgroundImage: `url(${vector})`, maxWidth: '100%', backgroundSize: 'contain', height: 'auto', backgroundPosition: 'right bottom', backgroundRepeat: 'no-repeat',
+        backgroundImage: `url(${vector})`, backgroundSize: 'contain', backgroundPosition: 'right bottom', backgroundRepeat: 'no-repeat',
       }}
     >
       <div className="container-fluid mb-5 p-5">
@@ -30,7 +30,7 @@ const Home = () => (
       </div>
     </div>
     <div
-      className="col-lg-6 col-sm-12 p-0"
+      className="col-lg-6 col-sm-12 p-0 col2"
       style={{
         backgroundImage: `url(${rightimage})`, maxWidth: '100%', backgroundSize: '100% 100%', height: '56rem', backgroundPosition: 'fixed',
       }}
